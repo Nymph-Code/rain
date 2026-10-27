@@ -1,0 +1,11 @@
+# 数据集：几百 MB，绝对不要推到 GitHub
+data/
+
+# 训练产物
+checkpoints/
+evaluation_images/
+*.pth.tar
+
+# Python 缓存
+__pycache__/
+*.pyc
